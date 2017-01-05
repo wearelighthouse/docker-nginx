@@ -1,3 +1,3 @@
 FROM nginx
 
-MAINTAINER wearelighthouse <christy@wearelighthouse.com>
+MAINTAINER cjquinn <christy@wearelighthouse.com>
