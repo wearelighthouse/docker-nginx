@@ -1,5 +1,5 @@
 FROM nginx
 
-MAINTAINER wearelighthouse <christy@wearelighthouse.com>
+MAINTAINER cjquinn <christy@wearelighthouse.com>
 
 COPY bedrock.conf /etc/nginx/conf.d/default.conf
