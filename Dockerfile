@@ -1,6 +1,6 @@
 FROM nginx
 
-MAINTAINER cjquinn <christy@wearelighthouse.com>
+MAINTAINER stevehopkinson <stevehopkinson@stevehopkinson.co.uk>
 
 # Update and requirements for extensions
 RUN apt-get update \
@@ -8,4 +8,4 @@ RUN apt-get update \
         vim
 
 COPY config/default.conf /etc/nginx/conf.d/default.conf
-COPY config/nginx.conf /etc/nginx/nginx.conf
+COPY config/codeigniter.conf /etc/nginx/nginx.conf
